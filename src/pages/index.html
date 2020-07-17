@@ -142,9 +142,9 @@
     />
   </head>
   <body>
-    <main class="main">
-      <div class="aside">
-        <aside class="person">
+    <div class="container">
+      <aside class="aside">
+        <div class="person">
           <img src="../assets/img/watman.jpg" alt="zdjęcie Mateusz Zdziebkło" class="person__photo" />
           <article class="person">
             <h1 class="person__title">MATEUSZ ZDZIEBŁKO</h1>
@@ -158,10 +158,10 @@
             >
             <a href="http://mzdzieblko.github.io" class="contact__link">MZDZIEBLKO.GITHUB.IO</a>
           </article>
-        </aside>
-      </div>
+        </div>
+      </aside>
       
-      <section class="content">
+      <main class="content">
         <article class="card">
           <h2 class="card__title">
             KRÓTKI OPIS
@@ -183,40 +183,47 @@
           <h2 class="card__title">EDUKACJA</h2>
           <p class="card__description">Inżynier Informatyki ze spacjalizacją Technologie Internetowe w Collegium Da Vinci 2014-2018 </p>
         </article>
-        <article class="card">
-          <h2 class="card__title">UMIEJĘTNOŚCI</h2>
-          <p class="card__description">
-            <ul class="card__list">praktyczna wiedza
-              <li class="card__listItem">Semantic HTML 5</li>
-              <li class="card__listItem">Flexbox</li>
-              <li class="card__listItem">Markdown</li>
-              <li class="card__listItem">JS:Local storage</li>
-              <li class="card__listItem">Figma</li>
-              <li class="card__listItem">CSS grid</li>
-              <li class="card__listItem">Forms</li>
-              <li class="card__listItem">JS:DOM manipulation</li>
-              <li class="card__listItem">SASS</li>
-            </ul>
-          </p>
-        </article>
-        <article class="card">
-          <h2 class="card__title"></h2>
-          <p class="card__description">
-            <ul class="card__list">wiem coś o tym
-              <li class="card__listItem">JavaScrpit ES6+ features</li>
-              <li class="card__listItem">CSS animations</li>
-              <li class="card__listItem">Working with API</li>
-              <li class="card__listItem">NPM Scripts</li>
-              <li class="card__listItem">Progresive web apps</li>
-              <li class="card__listItem">Accessibility</li>
-              <li class="card__listItem">Git</li>
-            </ul>
-          </p>
-        </article>
+        
+        <h2 class="card__title">UMIEJĘTNOŚCI</h2>
+        <div class="wraper">
+          <article class="card">
+            <h3 class="list__title">praktyczna wiedza</h3>
+            <p class="card__description">
+              <ul class="card__list">
+                <li class="card__listItem">Semantic HTML 5</li>
+                <li class="card__listItem">Flexbox</li>
+                <li class="card__listItem">Markdown</li>
+                <li class="card__listItem">JS:Local storage</li>
+                <li class="card__listItem">Figma</li>
+                <li class="card__listItem">CSS grid</li>
+                <li class="card__listItem">Forms</li>
+                <li class="card__listItem">JS:DOM manipulation</li>
+                <li class="card__listItem">SASS</li>
+              </ul>
+            </p>
+          </article>
+          <article class="card">
+            <h3 class="list__title">wiem coś o tym</h3>
+            <p class="card__description">
+              <ul class="card__list">
+                <li class="card__listItem">JavaScrpit ES6+ features</li>
+                <li class="card__listItem">CSS animations</li>
+                <li class="card__listItem">Working with API</li>
+                <li class="card__listItem">NPM Scripts</li>
+                <li class="card__listItem">Progresive web apps</li>
+                <li class="card__listItem">Accessibility</li>
+                <li class="card__listItem">Git</li>
+              </ul>
+            </p>
+          </article>
+        </div>
+        
         <article class="card">
           <h2 class="card__title">ZAINTERESOWANIA</h2>
+          
+          <h3 class="list__title">chcę się nauczyć</h3>
           <p class="card__description">
-            <ul class="card__list">chcę się nauczyć
+            <ul class="card__list">
               <li class="card__listItem">React.js</li>
               <li class="card__listItem">Node.js</li>
               <li class="card__listItem">Server side rendering</li>
@@ -226,7 +233,7 @@
             </ul>
           </p>
         </article>
-      </section>
-    </main>
+      </main>
+    </div>
   </body>
 </html>

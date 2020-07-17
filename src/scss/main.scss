@@ -12,7 +12,7 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-.main {
+.container {
   max-width: $desktop;
   margin: 0 32px 0 32px;
   background: #fefefe;
@@ -25,4 +25,28 @@ body {
 .content {
   grid-column: 5 / 12;
   background: #fffbfe;
+}
+
+.wraper {
+  display: flex;
+}
+
+.card {
+  &__title {
+    font-size: $small-title;
+    background: #d0cfcf;
+    padding-left: 16px;
+    &--skils {
+      display: block;
+    }
+  }
+  &__description {
+    @include small-font;
+    text-align: left;
+  }
+  &__list {
+  }
+  &__listItem {
+    list-style: none;
+  }
 }
