@@ -1,1 +1,18 @@
-$wtf: #2D2241;
+$wtf: #2d2241;
+$desktop: 780px;
+$resetLink: none;
+$small-title: 18px;
+
+@mixin resetLink {
+  a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+  }
+}
+
+@mixin small-font {
+  p {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,29 @@
+.aside {
+  grid-column: 1 / 5;
+  background: #d0cfcf;
+  display: grid;
+  grid-template-columns: minmax(20px, 25%) 1fr;
+}
+.person {
+  margin: 40px auto;
+  grid-column: 2;
+  @include small-font;
+  &__photo {
+    height: 150px;
+    width: 150px;
+    grid-column: 2;
+  }
+  &__title {
+    font-size: 26px;
+    margin: 20px 0;
+  }
+}
+
+.contact {
+  @include resetLink;
+  &__title {
+    margin-bottom: 30px;
+    font-size: $small-title;
+    font-weight: normal;
+  }
+}

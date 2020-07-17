@@ -1,13 +1,27 @@
 @import "~normalize.css";
-
 @import "_variables";
-@import "modules/hello.scss";
+// @import "modules/hello.scss";
+@import "modules/aside.scss";
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 
 body {
-  background: $wtf;
-  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  font-family: "Lato", sans-serif;
+}
+
+.main {
+  max-width: $desktop;
+  margin: 0 32px 0 32px;
+  backgroung: #fefefe;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 16px;
+  align-content: center;
+}
+
+.content {
+  grid-column: 5 / 12;
 }
