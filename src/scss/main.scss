@@ -1,6 +1,6 @@
 @import "~normalize.css";
 @import "_variables";
-// @import "modules/hello.scss";
+
 @import "modules/aside.scss";
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 
@@ -15,7 +15,7 @@ body {
 .main {
   max-width: $desktop;
   margin: 0 32px 0 32px;
-  backgroung: #fefefe;
+  background: #fefefe;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   column-gap: 16px;
@@ -24,4 +24,5 @@ body {
 
 .content {
   grid-column: 5 / 12;
+  background: #fffbfe;
 }
