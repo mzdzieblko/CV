@@ -1,0 +1,35 @@
+.content {
+  grid-column: 5 / 12;
+  background: #fffbfe;
+}
+
+.wraper {
+  display: flex;
+}
+
+.card {
+  &__title {
+    font-family: "Lato";
+    font-size: $small-title;
+    background: #d0cfcf;
+    padding-left: 16px;
+  }
+  &__description {
+    @include small-font;
+    text-align: left;
+  }
+  &__list {
+    padding: 0 0 0 8px;
+  }
+  &__listItem {
+    list-style: none;
+  }
+  &__listItem::before {
+    margin-right: 8px;
+    content: url(../assets/icons/checked.svg);
+  }
+}
+
+#icon {
+  display: none;
+}

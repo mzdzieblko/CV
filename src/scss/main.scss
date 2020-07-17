@@ -1,15 +1,16 @@
 @import "~normalize.css";
 @import "_variables";
-
+@import "modules/content.scss";
 @import "modules/aside.scss";
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import "fontawesome.scss";
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&family=Lato:wght@700&display=swap");
 
 body {
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  font-family: "Lato", sans-serif;
+  font-family: "Maven Pro", sans-serif;
 }
 
 .container {
@@ -20,33 +21,4 @@ body {
   grid-template-columns: repeat(12, 1fr);
   column-gap: 16px;
   align-content: center;
-}
-
-.content {
-  grid-column: 5 / 12;
-  background: #fffbfe;
-}
-
-.wraper {
-  display: flex;
-}
-
-.card {
-  &__title {
-    font-size: $small-title;
-    background: #d0cfcf;
-    padding-left: 16px;
-    &--skils {
-      display: block;
-    }
-  }
-  &__description {
-    @include small-font;
-    text-align: left;
-  }
-  &__list {
-  }
-  &__listItem {
-    list-style: none;
-  }
 }

@@ -14,6 +14,7 @@
     grid-column: 2;
   }
   &__title {
+    font-family: "Lato";
     font-size: 26px;
     margin: 20px 0;
   }
@@ -22,8 +23,8 @@
 .contact {
   @include resetLink;
   &__title {
+    font-family: "Lato";
     margin-bottom: 30px;
     font-size: $small-title;
-    font-weight: normal;
   }
 }
