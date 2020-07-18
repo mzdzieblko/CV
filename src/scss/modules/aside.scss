@@ -1,3 +1,12 @@
+.container {
+  max-width: $desktop;
+  margin: 0 32px 0 32px;
+  background: #fefefe;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 16px;
+  align-content: center;
+}
 .aside {
   grid-column: 1 / 5;
   background: #d0cfcf;
