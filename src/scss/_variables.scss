@@ -6,7 +6,7 @@ $small-title: 18px;
 @mixin resetLink {
   a {
     text-decoration: none;
-    color: #000000;
+    color: inherit;
     font-size: 14px;
   }
 }
