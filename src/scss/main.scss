@@ -3,6 +3,7 @@
 @import "modules/content.scss";
 @import "modules/aside.scss";
 @import "modules/iphone.scss";
+@import "modules/media.scss";
 @import url("https://fonts.googleapis.com/css2?family=Maven+Pro&family=Lato:wght@700&display=swap");
 
 body {
@@ -11,70 +12,4 @@ body {
   justify-content: center;
   min-height: 100vh;
   font-family: "Maven Pro", sans-serif;
-}
-
-// @media only screen and (max-width: 1024px) {
-//   .container {
-//     margin: 0 auto;
-//   }
-// }
-
-@media only screen and (max-width: 768px) {
-  .container {
-    margin: 0;
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  .aside {
-    grid-row: 1/2;
-    grid-column: 1/13;
-    background-image: url(../assets/img/IMG_2139e.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto auto;
-    min-height: 660px;
-  }
-  .person {
-    margin: 0 0 0 8px;
-    grid-row: 20;
-    grid-column: 1;
-    color: #fefefe;
-    &__photo {
-      display: none;
-    }
-  }
-  .contact {
-    margin: 0 0 0 8px;
-    color: #fefefe;
-    &__title {
-      margin: 0;
-    }
-    &__phone {
-      color: #fefefe;
-    }
-  }
-  .contact__phone {
-    color: #fefefe;
-  }
-
-  .content {
-    margin: 0 0 0 16px;
-    grid-column: 1/13;
-  }
-
-  .card {
-    &__list {
-      margin: 16px 8px;
-      width: 18em;
-    }
-  }
-  .card__title--mobile {
-    display: none;
-  }
-  .wraper--mobile {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    overflow-y: scroll;
-    overflow-y: hidden;
-  }
 }
