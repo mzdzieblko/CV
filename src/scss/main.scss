@@ -64,12 +64,8 @@ body {
 
   .card {
     &__list {
-      border: 4px solid #d0cfcf;
-      border-radius: 16px;
       margin: 16px 8px;
       width: 18em;
-    }
-    &--mobile {
     }
   }
   .card__title--mobile {
