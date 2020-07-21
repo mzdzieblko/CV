@@ -1,12 +1,12 @@
 {
-  "name": "WTF: PWA",
-  "short_name": "WTF: PWA",
-  "theme_color": "#2D2241",
-  "background_color": "#2D2241",
+  "name": "CVzdzieblko",
+  "short_name": "CVzdzieblko",
+  "theme_color": "#d0cfcf",
+  "background_color": "#d0cfcf",
   "display": "standalone",
   "orientation": "portrait",
-  "scope": "/wtf-webpack-starter/",
-  "start_url": "/wtf-webpack-starter/",
+  "scope": "/CV/",
+  "start_url": "/CV/",
   "icons": [
     {
       "src": "pwa/manifest-icon-192.png",
