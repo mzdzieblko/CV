@@ -1,4 +1,4 @@
-![cover](src/assets/img/img_2139.png)
+![cover](/src/assets/img/IMG_2139.png)
 
 # Projekt cv
 
