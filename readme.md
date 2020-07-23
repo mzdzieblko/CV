@@ -1,3 +1,7 @@
+[![mzdzieblko github stats](https://github-readme-stats.vercel.app/api?username=mzdzieblko&show_icons=true&theme=tokyonight)](https://github.com/mzdzieblko/cv)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mzdzieblko)](https://github.com/mzdzieblko/cv)
+
 ![cover](/src/assets/img/IMG_2139.png)
 
 # Projekt cv
